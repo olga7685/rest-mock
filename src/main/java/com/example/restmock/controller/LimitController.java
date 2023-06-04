@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.*;
 @Validated
 public class LimitController {
 
-    private final String sharedKey = "SHARED_KEY";
+    private final String sharedKey = "SHARED_KEY_2";
     private static final String SUCCESS_STATUS = "success";
     private static final String ERROR_STATUS = "error";
     private static final int CODE_SUCCESS = 100;
